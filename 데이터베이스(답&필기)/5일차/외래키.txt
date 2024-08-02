@@ -1,0 +1,15 @@
+PK/FK-외래키로 연결
+
+S_ID(PK-주민등록번호와 비슷한 역할)학생
+
+
+P_ID(PK)
+S_ID(FK)
+
+S_ID(FK) = S_ID(PK)
+연결
+
+연결
+
+외래키
+fk_student_school - student.tb_school_info(연결할 테이블) -> school_idx -> school_idx <-foreign key

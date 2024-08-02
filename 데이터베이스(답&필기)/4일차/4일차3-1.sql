@@ -1,0 +1,1 @@
+SELECT * FROM student.tb_school_info;

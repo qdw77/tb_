@@ -1,0 +1,11 @@
+쿼리 안에 쿼리가 서브쿼리
+ex)
+외부쿼리->select * 
+	from main_table where main_condition in (
+서브쿼리->	select sub_condition 
+		from sub_table where sub_cnt >10
+	)
+
+AS-어떤 것인지 알수 있게 주는 것이므로 서브쿼리를 할 떄는 필수
+     (가끔 넣지 않아도 가동하지만 구분을 위해 필수로 넣어야함)
+
